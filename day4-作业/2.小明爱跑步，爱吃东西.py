@@ -7,9 +7,9 @@
 
 分析：
 类：人
-    属性：体重
-    方法：1、跑步
-         2、吃东西
+    属性：体重、名字
+    方法：1、跑步--体重减少0.5公斤
+         2、吃东西--体重增加1公斤
 '''
 
 class People():
@@ -17,7 +17,7 @@ class People():
     def __init__(self,name,weight):
         self.name = name
         self.weight = weight
-        print(f'{self.name}的体重{self.weight}公斤')
+        print(f'{self.name}的体重{self.weight}公斤')    #用__str__方法返回，每次打印对象可以打印出调用方法之后的体重变化
 
     #定义跑步方法
     def run(self):
