@@ -24,4 +24,4 @@ if __name__ == '__main__':
     runner.run(suite)
 
     #等价于手工添加全部test开头的方法
-    unittest.main()
+    #unittest.main()
